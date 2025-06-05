@@ -1,0 +1,8 @@
+streamlit
+google-generativeai
+Pillow
+PyMuPDF
+opencv-python
+fpdf
+speechrecognition
+pyaudio
