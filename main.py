@@ -10,7 +10,7 @@ import os
 # This is for demonstration purposes ONLY and should NEVER be used in production
 # or committed to public repositories.
 # For production, always use st.secrets or environment variables.
-API_KEY = "AIzaSyBBuexE_k34oFmXUGihSlnuBhydDfH8PmA" # REPLACE WITH YOUR ACTUAL API KEY
+API_KEY = "AIzaSyBU176AWb8ySvXtVHYRIdDkLmqSlC9h35A" # REPLACE WITH YOUR ACTUAL API KEY
 GEMINI_MODEL = "gemini-2.0-flash"
 
 genai.configure(api_key=API_KEY)
