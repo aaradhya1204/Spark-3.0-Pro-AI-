@@ -28,7 +28,9 @@ st.set_page_config(
         'Get Help': 'https://www.example.com/help',
         'Report a bug': 'https://www.example.com/bug',
         'About': '# This is a super cool AI chatbot powered by Google Gemini!'
-    }
+    },
+    # Add the meta tag here
+    html="<head><meta name='google-site-verification' content='Dx-0anuTo3cXCq0haxfOk_iUmPaf-eKOqKzEe9kBDnc' /></head>"
 )
 
 # --- CUSTOM CSS FOR STYLING ---
