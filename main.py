@@ -5,9 +5,6 @@ import io
 import PyPDF2
 import os
 
-# Inject meta tag for Google site verification
-st.markdown("<head><meta name='google-site-verification' content='Dx-0anuTo3cXCq0haxfOk_iUmPaf-eKOqKzEe9kBDnc' /></head>", unsafe_allow_html=True)
-
 # --- CONFIG ---
 # WARNING: Exposing your API key directly in code is a serious security risk.
 # This is for demonstration purposes ONLY and should NEVER be used in production
@@ -32,8 +29,6 @@ st.set_page_config(
         'Report a bug': 'https://www.example.com/bug',
         'About': '# This is a super cool AI chatbot powered by Google Gemini!'
     }
-    # REMOVE THE 'html' ARGUMENT FROM HERE:
-    # html="<head><meta name='google-site-verification' content='Dx-0anuTo3cXCq0haxfOk_iUmPaf-eKOqKzEe9kBDnc' /></head>"
 )
 
 # --- CUSTOM CSS FOR STYLING ---
